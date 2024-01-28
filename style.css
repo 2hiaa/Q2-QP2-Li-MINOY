@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Asap+Condensed&family=Autour+One&family=Bebas+Neue&family=Caveat:wght@400;600;700&family=DM+Serif+Display&family=Girassol&family=Kalam:wght@700&family=Oswald:wght@300;400;500;700&family=Pacifico&family=Playfair+Display:wght@400;500&family=Poltawski+Nowy:wght@700&family=Vidaloka&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Asap+Condensed&family=Autour+One&family=Bebas+Neue&family=Caveat:wght@400;600;700&family=DM+Serif+Display&family=Girassol&family=Kalam:wght@700&family=Oswald:wght@300;400;500;700&family=Pacifico&family=Playfair+Display:wght@400;500&family=Poltawski+Nowy:wght@700&family=Vidaloka&family=Young+Serif&display=swap');
+
+*{margin: 0px;}
+a{text-decoration: none;}
+
+
+
+#vbg{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index:-1;
+}
+.cb{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.cb span{
+    font-size: 50px;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(134, 162, 121);
+    justify-content: space-around;
+    box-shadow: 0px 8px 16px 0px rgba(83, 85, 83, 0.2);
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+nav span{
+    font-family: Bebas Neue;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+
+.links a{
+    font-family: Bebas Neue;
+    text-transform: uppercase;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+
+}
+.b{
+    text-transform: uppercase;
+    font-family: Oswald;
+    color: rgb(237, 207, 192);
+    text-shadow: rgb(114, 100, 93) 1px 1px;
+    margin-top: 10vw;
+    padding: 5vw;
+
+}
+.bh{
+    font-size: 40pt;
+    font-weight: 500;
+
+}
+
+.ConcParagraphbox{
+    margin: 15px;
+    background-color: #3d3939b6 ;
+    border: 1px solid white;
+}
+.ConcParagraphbox p{
+    margin: 15px;
+    font-size: 25px;
+    color: rgb(237, 207, 192);
+    text-indent: 100px;
+    line-height: 1;
+    font-weight: 700;
+    text-shadow: 2px 2px #000000;
+    font-family: Archivo Narrow;;  
+    text-align: justify;
+}
+
+
+.WWDBanner h2{
+    left: 28%;
+    top: 23%;
+    font-family: Oswald;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #ffffff;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+hr{
+    margin: 60px;
+}
+
+.WWDParagraph{
+    top: 50%;
+    margin: 50px;
+    padding: 30px;
+}
+.WWDParagraphbox1{
+    background-color: #3d3939b6 ;
+    border: 1px solid white;
+    margin: 10px;
+}
+
+.WWDParagraphbox1 p{
+    margin: 30px;
+    font-size: 30px;
+    font-family: Archivo Narrow;
+    color: rgb(210, 179, 161);
+    text-indent: 50px;
+    line-height: 1;
+    font-weight: 700;
+    text-shadow: 1px 1px #000000;  
+    text-align: justify;
+}
+
+.WWDParagraphbox2{
+    background-color: #3d3939b6 ;
+    border: 1px solid white;
+    margin: 10px;
+}
+
+.WWDParagraphbox2 p{
+    margin: 30px;
+    font-size: 30px;
+    font-family: Archivo Narrow;
+    color: rgb(210, 179, 161);
+    text-indent: 50px;
+    line-height: 1;
+    font-weight: 700;
+    text-shadow: 2px 2px #000000;  
+    text-align: justify;
+}
+
+.WWDParagraphbox3{
+    background-color: #3d3939b6 ;
+    border: 1px solid white;
+    margin: 10px;
+}
+
+.WWDParagraphbox3 p{
+    margin: 30px;
+    font-size: 30px;
+    font-family: Archivo Narrow;
+    color: rgb(210, 179, 161);
+    text-indent: 50px;
+    line-height: 1;
+    font-weight: 700;
+    text-shadow: 2px 2px #000000;  
+    text-align: justify;
+}
+
+footer{
+    text-align: center;
+    position: relative;
+    bottom: -35vw;
+    background-color: rgb(134, 162, 121);
+}
+
+#Bunny{
+    background: url(/images/Bunny.PNG);
+    width:100px;
+    height:100px;
+    transform: translate(10vw, 10vh);
+    transition: 100s;
+    animation-name: MWanimation;
+    animation-duration: 30s;
+    margin: 10px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px){
+    nav{ position: relative; background-color: white;}
+    .tp{
+        padding: 1vw;
+        color: rgb(237, 207, 192);
+        transition: .5s;
+    }
+    .links{
+        display: none;
+        z-index: 1;
+        position: absolute;
+        background-color: white;
+        min-width: 100vw;
+        box-shadow: 0px 8px 16px 0px rgba(184, 142, 107, 0.728);
+        transition: .5s;
+    }
+    .links a{
+        color: rgb(210, 179, 161);
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        display: block;
+        transition: .5s;
+        margin-left: 0;
+        padding-left: 1vh;}
+    
+    .links a:hover{background-color: #ddd; transition: .5s;}
+    nav:hover .links{display: block; transition: .5s;}
+    nav:hover .pagetitle{background-color: #2e73eb; transition: .5s;}
+}
+
+@keyframes MWanimation{
+    from{transform: translate(40vw, 0vh)scale(0.1);}
+    50% {transform: translate(45vw, 40vh)scale(0.5);}
+    100% {transform: translate(10vw,10vh)scale(1)rotate3d(90deg);}
+
+}
+
+
+
+.icon{
+    margin: 10px;
+    background: url(../images/sprite1.png);
+    background-repeat: no-repeat;  width: 66px;
+    height: 66px;
+    display: inline-block;
+}
+
+
+#tinder{background-position:-587px -221px;}
+#soundcloud{background-position:-587px -72px;}
+#gmail{background-position:-365px -221px;}
+#Star{background-position:-587px -146px;}
